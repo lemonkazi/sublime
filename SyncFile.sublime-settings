@@ -1,0 +1,31 @@
+/* SyncFileYouWant settings */
+
+{
+//
+// Source dest locations and paired with each other
+// Please set up at least one pair of source/dest before using Sync file
+// The directories will auto-include all its sub folders
+//
+// 
+// e.g.
+// 
+//"mappings": [
+//        {
+//            "source": "example/source/path",
+//           "dest": "the/dest/path",
+//        },
+//        {
+//            "source": "c:\\example\\source\\path2",
+//            "dest": "d:\\second\\dest\\path",
+//        }
+//    ]
+// Can add as many pairs of directories as you want
+
+	"mappings": [
+        {
+            "source": "",
+            "dest": "",
+        }
+    ],
+    "meldLocation": "C:\\Program Files (x86)\\Meld\\meld"
+}
