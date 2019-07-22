@@ -1,0 +1,1 @@
+{"description": "A simple Sublime Text Plugin that auto closes HTML tags right after '>'.", "url": "https://github.com/sh4nks/auto_close", "platforms": ["*"], "version": "1.0.1", "sublime_text": "*", "dependencies": []}

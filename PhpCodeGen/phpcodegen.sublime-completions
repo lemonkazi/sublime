@@ -1,0 +1,19 @@
+{
+
+	"scope": "source.php",
+	"completions":
+	[
+
+		{"trigger": "@class ~phpCodeGen", "contents": "class ${1:-a} ${2:-e ExtendedClass} ${3:-i Interface1,Interface2} ${4:ClassName}\n@endClass"},
+		{"trigger": "@const ~phpCodeGen", "contents": "const ${1:-q} ${2:CONSTANT_NAME} ${3:VALUE}"},
+		{"trigger": "@property ~phpCodeGen", "contents": "property ${1:-v public|protected|private} ${2:-set} ${3:-get} ${4:-t returnType} ${5:propertyName}"},
+		{"trigger": "@method ~phpCodeGen", "contents": "method ${1:-a} ${2:-v public|protected|private} ${3:-s} ${4:-p \\{ParamTypeHint:paramVariableName, param2VarName='default value'\\}} ${5:-r returnType} ${6:methodName}"},
+		{"trigger": "@function ~phpCodeGen", "contents": "function ${1:-s} ${2:-p \\{ParamTypeHint:paramVariableName, param2VarName='default value'\\}} ${3:-r returnType} ${4:methodName}"},
+		{"trigger": "@endClass ~phpCodeGen", "contents": "endClass"},
+		{"trigger": "@php ~phpCodeGen", "contents": "php\n@endPhp"},
+		{"trigger": "@endPhp ~phpCodeGen", "contents": "endPhp"}
+		
+
+	]
+
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+
+            {
+                "caption": "PhpCodeGen",
+                "mnemonic": "P",
+                "children":
+                [
+                    {
+                        "caption": "Settings - Default",
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/PhpCodeGen/phpcodegen.sublime-settings"
+                        }
+                    },
+                    {
+                        "caption": "Settings - User",
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/User/phpcodegen.sublime-settings"
+                        }
+                    },
+                    {
+                        "caption": "Run Transform",
+                        "command": "php_code_gen"
+                    }
+                ]
+            }
+        ]
+    }
+]

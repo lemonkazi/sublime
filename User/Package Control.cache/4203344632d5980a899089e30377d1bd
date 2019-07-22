@@ -1,0 +1,44 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "SVN",
+			"description": "Full-featured commercial Subversion plugin with a focus on usability",
+			"author": "Will Bond (wbond)",
+			"homepage": "http://wbond.net/sublime_packages/svn",
+			"buy": "https://wbond.net/sublime_packages/svn/buy",
+			"issues": "http://wbond.net/sublime_packages/svn/support",
+			"labels": ["vcs", "svn"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"platforms": ["osx", "linux"],
+					"version": "1.7.1-alpha1",
+					"url": "https://packagecontrol.io/testing/2-posix/SVN.sublime-package",
+					"date": "2014-01-03 17:22:00"
+				},
+				{
+					"sublime_text": "<3000",
+					"platforms": ["windows"],
+					"version": "1.7.1-alpha1",
+					"url": "https://packagecontrol.io/testing/2-win/SVN.sublime-package",
+					"date": "2014-01-03 17:22:00"
+				},
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx", "linux"],
+					"version": "1.7.1-alpha1",
+					"url": "https://packagecontrol.io/testing/3-posix/SVN.sublime-package",
+					"date": "2014-01-03 17:22:00"
+				},
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"version": "1.7.1-alpha1",
+					"url": "https://packagecontrol.io/testing/3-win/SVN.sublime-package",
+					"date": "2014-01-03 17:22:00"
+				}
+			]
+		}
+	]
+}

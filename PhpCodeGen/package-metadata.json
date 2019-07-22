@@ -1,0 +1,1 @@
+{"description": "PhpCodeGen is a Sublime Text 2 and 3 Plugin that generates Object Oriented Code from a simple shorthand syntax.", "url": "http://idevelopsolutions.com/PhpCodeGen", "platforms": ["*"], "version": "1.0.2", "sublime_text": "*", "dependencies": []}
