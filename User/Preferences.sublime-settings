@@ -44,7 +44,7 @@
 	"drag_text": true,
 	"draw_centered": false,
 	"draw_indent_guides": true,
-	"draw_minimap_border": true,
+	"draw_minimap_border": false,
 	"draw_white_space": "selection",
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": false,
@@ -81,7 +81,7 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "monaco",
+	"font_face": "Consolas",
 	"font_options":
 	[
 		"gdi"
@@ -90,7 +90,7 @@
 	"git_binary": "C:\\Program Files\\git\\bin\\git.exe",
 	"gpu_window_buffer": "auto",
 	"gutter": true,
-	"highlight_line": true,
+	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
@@ -108,6 +108,7 @@
 	"line_numbers": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"margin": 4,
 	"match_brackets": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": false,
