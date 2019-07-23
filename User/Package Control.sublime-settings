@@ -1,20 +1,16 @@
 {
 	"bootstrapped": true,
-	"git_binary": "c:\\Program Files\\git\\bin\\git.exe",
+	"git_binary": "C:\\Program Files\\git\\bin\\git.exe",
 	"in_process_packages":
 	[
+		"GitGutter"
 	],
 	"installed_packages":
 	[
-		"Auto Close HTML Tags",
-		"Git Config",
 		"GitGutter",
 		"HTML Page Snippets",
-		"HTML5",
 		"HTMLAttributes",
 		"Package Control",
-		"PHP Code Coverage",
-		"PhpCodeGen",
 		"Theme - Cobalt2",
 		"TrailingSpaces"
 	],

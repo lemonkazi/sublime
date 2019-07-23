@@ -1,0 +1,15 @@
+1.9.5:
+======
+
+  Enhancement:
+   - Add line_annotation_ignore_whitespace setting (#526)
+   - Disable line annotation if multiple cursors are visible
+   - Disable line annotation if selection is not empty
+   - Hide line annotation if caret moves horizontally
+   - Debounce all evaluations which decide whether line annotation is displayed
+
+  Fix:
+   - IndexError thrown every time ST starts (#528)
+
+  README:
+   - Fix typos

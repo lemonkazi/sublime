@@ -1,0 +1,15 @@
+1.7.10:
+-------
+
+  Enhancement:
+   - Add new SublimeLinter protected regions key
+   - Add support for custom environment variables
+   - Add protected regions for diff popup (Issue #476)
+
+  Fix:
+   - mangled {{branch}} text when `git status` output is colored (Issue #474)
+
+  README:
+   - Fix some typos
+   - Add description of "diff_popup_protected_regions" setting
+   - Add description of "env" setting

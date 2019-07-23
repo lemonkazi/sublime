@@ -1,0 +1,7 @@
+1.10.2:
+
+  DOC:
+   - Update settings and troubleshooting for ST3.2+
+
+  Fix:
+   - line height is increased by annotations (#523)

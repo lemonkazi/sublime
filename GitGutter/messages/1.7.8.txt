@@ -1,0 +1,5 @@
+1.7.8:
+------
+
+  Fix:
+   - Branch info for status bar not detected on macOS (Issue #462)

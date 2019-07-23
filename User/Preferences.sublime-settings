@@ -41,7 +41,7 @@
 	"default_line_ending": "system",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
-	"dpi_scale": 1.0001,
+	"dpi_scale": 2,
 	"drag_text": true,
 	"draw_centered": false,
 	"draw_indent_guides": true,
@@ -97,6 +97,7 @@
 	"ignored_packages":
 	[
 		"LiveReload",
+		"PhpCodeGen",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -134,7 +135,7 @@
 	"smart_indent": true,
 	"spell_check": false,
 	"tab_completion": true,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
